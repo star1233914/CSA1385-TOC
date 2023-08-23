@@ -1,0 +1,41 @@
+Automaton Simulator, v1.0
+nfa {
+	alphabet {abcd*@}
+	state {
+		initial {yes}
+		coord {111 200}
+	}
+	state {
+		coord {308 190}
+	}
+	state {
+		final {yes}
+		coord {542 203}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.664162125022489}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {2.356194490192345}
+	}
+	edge 1 1 {
+		transits {ab}
+		offset {2.332389464007275}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {194 49}
+	}
+	label {
+		text {13.nfa accept trippler as}
+		font {SansSerif 12 -}
+		coord {194 49}
+	}
+}
